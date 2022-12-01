@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Roboto:ital,wght@1,100&display=swap');
+
+
+
 .container {
   padding: 0 2rem;
 }
@@ -108,6 +112,17 @@
   margin-left: 0.5rem;
 }
 
+.ab-womens{
+  font-family: 'Cookie', cursive;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+
+.ab-foot-pic{
+  height: 10;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -127,3 +142,5 @@
     filter: invert(1);
   }
 }
+
+

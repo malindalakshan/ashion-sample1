@@ -1,26 +1,127 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Roboto:ital,wght@1,100&display=swap');
+
+.ab-womens{
+    font-family: 'Cookie', cursive;
+    font-weight: 300;
+    font-size: 70px; 
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.ab-banner{
+    height: 500px;
 }
 
-* {
-  box-sizing: border-box;
+.ab-pro-name{
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;}
+
+.ab-monte{
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+.ab-discount-circle{
+    width: 183px;
+    height: 183px;
+}
+
+.banner-cap {
+    background-image: url('/newimages/banner-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  body {
-    color: white;
-    background: black;
+
+  .ab-project-jacket{
+
+    font-family: 'Cookie', cursive;
+    font-weight: 300;
+    font-size: 45px;
   }
-}
+
+  .ab-banner-text{
+    font-size: 80px;
+  }
+
+  .main-image{
+    background-image: url('/newimages/category-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 638px;
+    width: 400px; */
+
+  }
+ 
+  .ab-womens-fashion{
+    height: 638px;
+    background-size: cover;
+    /* width: 400px; */
+
+    
+  }
+
+  /* .text-container{
+    background-color: rgba(0,0,0,4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-container small{
+    display: none;
+  }
+
+  .main-image:hover small{
+    display:block;
+  } */
+
+  .insta{
+    width: 100%;
+    height: 100%;
+    color: black;
+  }
+
+  .insta p{
+    display:none;
+  }
+
+  .insta:hover p{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgba(254, 253, 253, 0.819);
+  }
+
+  .ab-img-container{
+    width: 360.4px;
+    height: 360px;
+    object-fit: cover;
+    object-position: top;
+
+  }
+
+  .link-underline {
+		border-bottom-width: 1;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff ,#fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size .5s ease-in-out;
+	}
+
+  .link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(217, 21, 21), rgb(217, 21, 21))
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 50% 100%
+	}
